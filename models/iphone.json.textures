@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texture",
+        "1": "buttons"
+      },
+      "name": "default"
+    }
+  }
+}

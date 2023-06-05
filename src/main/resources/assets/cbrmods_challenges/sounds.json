@@ -1,0 +1,11 @@
+{
+  "shotoniphone": {
+    "subtitle": "subtitles.shotoniphone",
+    "sounds": [
+      {
+        "name": "cbrmods_challenges:this-girl-kungs-golo-fc-porto-button-1",
+        "stream": false
+      }
+    ]
+  }
+}

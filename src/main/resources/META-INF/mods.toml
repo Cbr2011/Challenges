@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="cbrmods_challenges"
+version="1.0.0"
+displayName="Challenges"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://modrinth.com/mod/challanges"
+updateJSONURL="https://api.modrinth.com/updates/v75WJrdv/forge_updates.json"
+authors="Cbr 2011"
+description='''
+Adds custom challanges
+'''
+
+[[dependencies.cbrmods_challenges]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

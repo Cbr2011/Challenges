@@ -1,0 +1,360 @@
+{
+  "mod_elements": [
+    {
+      "name": "Dream",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cbrmods_challenges/models/item/dream_spawn_egg.json",
+          "src/main/java/net/mcreator/cbrmodschallenges/client/renderer/DreamRenderer.java",
+          "src/main/java/net/mcreator/cbrmodschallenges/entity/DreamEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Dreamc",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cbrmodschallenges/procedures/DreamcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Listofchallenges",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "listofchallenges",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cbrmodschallenges/procedures/ListofchallengesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Summonchallenges",
+      "type": "command",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summonchallenges",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cbrmodschallenges/command/SummonchallengesCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Skillissue",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skillissue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cbrmodschallenges/procedures/SkillissueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoFatherDream",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_father_dream",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cbrmods_challenges/advancements/no_father_dream.json"
+        ]
+      }
+    },
+    {
+      "name": "DreamEntityDies",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cbrmodschallenges/procedures/DreamEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warning",
+      "type": "gui",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cbrmodschallenges/client/gui/WarningScreen.java",
+          "src/main/java/net/mcreator/cbrmodschallenges/world/inventory/WarningMenu.java",
+          "src/main/java/net/mcreator/cbrmodschallenges/network/WarningButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Openwarning",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "openwarning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cbrmodschallenges/procedures/OpenwarningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Closewarning",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "closewarning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cbrmodschallenges/procedures/ClosewarningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spawnandclosewarning",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawnandclosewarning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cbrmodschallenges/procedures/SpawnandclosewarningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IPhoneRightclicked",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_phone_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cbrmodschallenges/procedures/IPhoneRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Iphone",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iphone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cbrmodschallenges/item/IphoneItem.java",
+          "src/main/resources/assets/cbrmods_challenges/models/item/iphone.json"
+        ]
+      }
+    },
+    {
+      "name": "Shotonphone",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotonphone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cbrmodschallenges/procedures/ShotonphoneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "shotoniphone",
+      "files": [
+        "this-girl-kungs-golo-fc-porto-button-1"
+      ],
+      "category": "neutral",
+      "subtitle": "[\"Shot on iPhone\" plays]"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "gui.cbrmods_challenges.warning.label_this_challange_can_destory_your": "This challenge can destory your world. even worse",
+      "gui.cbrmods_challenges.warning.label_please_make_a_backup_before_star": "Please make a backup before starting the challenge",
+      "advancements.no_father_dream.title": "No father, Dream?",
+      "entity.cbrmods_challenges.dream": "Dream",
+      "item.cbrmods_challenges.dream_spawn_egg": "Dream Spawn Egg",
+      "gui.cbrmods_challenges.warning.label_are_you_sure_you_wanna_do_this": "Are you sure you wanna do this?",
+      "subtitles.shotoniphone": "[\"Shot on iPhone\" plays]",
+      "advancements.no_father_dream.descr": "Kill dream",
+      "gui.cbrmods_challenges.warning.button_i_dont_care_start_the_challeng": "I don\u0027t care, START THE CHALLENGE",
+      "gui.cbrmods_challenges.warning.label_destory_your_hardworked_hous": " - Destory your hard-worked house",
+      "gui.cbrmods_challenges.warning.label_if_youre_the_owner_of_the_serve": "If you\u0027re the owner of the server,",
+      "gui.cbrmods_challenges.warning.label_wait": "WAIT!",
+      "gui.cbrmods_challenges.warning.label_muiltiplayer": "MUILTIPLAYER:",
+      "item.cbrmods_challenges.iphone": "Iphone",
+      "gui.cbrmods_challenges.warning.button_on_second_thought": "On second thought."
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cbrmods_challenges",
+    "modName": "Challenges",
+    "version": "1.0.0",
+    "description": "Adds custom challanges",
+    "author": "Cbr 2011",
+    "websiteURL": "https://modrinth.com/mod/challanges",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "updateURL": "https://api.modrinth.com/updates/v75WJrdv/forge_updates.json",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.cbrmodschallenges",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300217118
+}

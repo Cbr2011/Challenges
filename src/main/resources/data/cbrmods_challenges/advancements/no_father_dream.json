@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "cbrmods_challenges:dream_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.no_father_dream.title"
+    },
+    "description": {
+      "translate": "advancements.no_father_dream.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "no_father_dream": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 19
+  }
+}

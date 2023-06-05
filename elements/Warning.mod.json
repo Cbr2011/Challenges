@@ -1,0 +1,155 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 403,
+    "height": 212,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_wait",
+          "text": {
+            "fixedValue": "WAIT!"
+          },
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "x": 23,
+          "y": 20
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_are_you_sure_you_wanna_do_this",
+          "text": {
+            "fixedValue": "Are you sure you wanna do this?"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 247,
+          "y": 20
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_this_challange_can_destory_your",
+          "text": {
+            "fixedValue": "This challenge can destory your world. even worse"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 24,
+          "y": 38
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_destory_your_hardworked_hous",
+          "text": {
+            "fixedValue": " - Destory your hard-worked house"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 26,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_i_dont_care_start_the_challeng",
+          "text": "I don't care, START THE CHALLENGE",
+          "onClick": {
+            "name": "Spawnandclosewarning"
+          },
+          "width": 197,
+          "height": 20,
+          "x": 20,
+          "y": 199
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_on_second_thought",
+          "text": "On second thought.",
+          "onClick": {
+            "name": "Closewarning"
+          },
+          "width": 119,
+          "height": 20,
+          "x": 286,
+          "y": 199
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_if_youre_the_owner_of_the_serve",
+          "text": {
+            "fixedValue": "If you're the owner of the server,"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 17,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_muiltiplayer",
+          "text": {
+            "fixedValue": "MUILTIPLAYER:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 18,
+          "y": 73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_please_make_a_backup_before_star",
+          "text": {
+            "fixedValue": "Please make a backup before starting the challenge"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 18,
+          "y": 103
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_fv": 43,
+  "_type": "command",
+  "definition": {
+    "commandName": "summon_challenge",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"call_procedure\"><field name=\"procedure\">Listofchallenges</field><next><block type=\"literal\"><field name=\"name\">Dream</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Dreamc</field></block></statement><next><block type=\"literal\"><field name=\"name\">Dragon</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Openwarning</field></block></statement><next><block type=\"literal\"><field name=\"name\">Shot_On_iPhone</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Shotonphone</field></block></statement></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}
